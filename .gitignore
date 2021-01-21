@@ -1,2 +1,5 @@
 # Backup files for emacs
 **/*~
+
+# Config files for vscode
+.vscode
