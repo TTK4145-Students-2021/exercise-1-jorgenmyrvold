@@ -9,9 +9,7 @@ Exercise 1 - Theory questions
  
  ### Why do we divide software (programs) into concurrently executing parts (like threads or processes)?
  (Or phrased differently: What problems do concurrency help in solving?)
- > *By executing different parts of SW in parallell we can have huge performance benefits. Cases where this kind of computation can benefit is for example in image processing where multiple operaitons has to be done on each pixel, and the operations don't depend on eachother's output. The performance benefits are also large in real-time systems where there are multiple processes going on at the same time. In this case concurrency might also cause problems, but as long as it is taken care of, there are large benefits here as well*
-
- > *Advantage if you want to do two or more tasks simoultaniously. This can also improve the readability of your code*
+ > *If you want to do two or more tasks simoultaniously there can be large performance benefits by computing concrurrently. Writing concurrent programs can also improve the readability of your code*
  
  ### Does creating concurrent programs make the programmer's life easier? Harder? Maybe both?
  (Come back to this after you have worked on part 4 of this exercise)
